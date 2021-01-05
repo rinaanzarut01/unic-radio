@@ -91,6 +91,10 @@ p {
   text-align: : right;
 }
 
+.footer p{
+  text-align: right;
+}
+
 
 @media (max-width: 800px) {
   .cards {
