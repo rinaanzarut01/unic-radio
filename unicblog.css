@@ -1,0 +1,146 @@
+/* Write some CSS below */
+body {
+  font-family: Overpass;
+  margin: 10px;
+}
+p {
+  color: #616161;
+  font-family: Overpass;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+.navbar{
+  display: block;
+  padding: 8px;
+  background-color: #616161;
+  text-align: center;
+  padding: 4px 8px;
+border-radius: 8px;
+text-decoration: none;
+color: #eeeeee;
+}
+
+li a:hover {
+  background-color: #b2b2b2;
+}
+
+.banner {
+	background-image: url('images/NYE.jpg');
+	background-position: center bottom;
+	background-size: cover;
+	padding: 175px 0;
+  	text-align: center; 
+}
+
+h1{
+  color: #e3e3e3;
+  font-family: Overpass;
+  text-align: center;
+  text-shadow: 2px 2px 6px #616161;
+  font-size: 50px;
+ }
+
+ h3{
+ 	color: #616161;
+	font-family: Overpass;
+	text-align: center;
+	text-shadow: 2px 2px 2px #e3e3e3;
+  	font-size: 25px;
+ }
+
+ h4{
+  color: #616161;
+  font-family: Overpass;
+  text-align: center;
+ }
+
+.button-white{
+	background-color: #616161;
+	color: #eeeeee;
+	font-family: Overpass;
+	padding: 4px 8px;
+	border-radius: 8px;
+	text-decoration: none;
+}
+
+.button-white:hover{
+	background-color: #b2b2b2;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  
+}
+.card-white {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width: 400px;
+  text-align: center;
+  padding: 24px;
+  margin: 8px;
+}
+
+.card-white img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.footer {
+  background: #eeeeee;
+  padding: 16px 4px;
+}
+
+.footer p{
+  text-align: right;
+}
+
+
+
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-white {
+    width: auto;
+  }
+}
+  
+/* Container media queries */
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
